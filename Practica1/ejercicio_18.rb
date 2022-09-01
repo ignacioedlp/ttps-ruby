@@ -1,1 +1,2 @@
-TODO: hacerlo
+
+puts "Hola, #{ARGV[0]} !"
