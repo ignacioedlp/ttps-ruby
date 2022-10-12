@@ -15,3 +15,5 @@ puts notacion_hexadecimal([0, 128, 255])
 # => '#0080FF'
 puts notacion_entera([0, 128, 255])
 # => 16744448
+
+#* Convierte un array en un notacion hex y entera

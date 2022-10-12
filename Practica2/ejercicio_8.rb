@@ -18,3 +18,5 @@ puts "Include"
 ClassThatIncludes.new.module_method       # "Module Method: Hi there!"
 puts "Extend"
 ClassThatExtends.module_method            # "Module Method: Hi there!"
+
+#* Uso de como funciona el include y el extend

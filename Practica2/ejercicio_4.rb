@@ -5,3 +5,5 @@ def longitud(*parametros)
 end
 
 longitud(9,Time.now,'Hola',{un: 'hash'},:ruby)
+
+#* Saber la longitud de las variables sin importar el tipo

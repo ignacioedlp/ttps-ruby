@@ -101,3 +101,5 @@ pp tofiAdmin.to_s
 pp tofiRedactor.to_s
 pp tofiLector.to_s
 pp tofiDirector.to_s
+
+#* Simulacion de permisos para usuarios

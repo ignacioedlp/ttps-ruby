@@ -10,6 +10,3 @@ puts("Esto es un arreglo de numeros -> " , arreglo);
 puts("Esto es un hash -> " , hash);
 puts(string)
 puts :symbol
-
-
-#TODO: Hecho

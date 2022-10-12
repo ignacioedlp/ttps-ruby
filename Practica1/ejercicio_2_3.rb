@@ -17,4 +17,5 @@ end
 
 perro = Perro.new('Caniche', 'Juanito')
 
-p perro.to_s #Te muestra el objeto con etiqueta string
+p perro.to_s 
+#* Te muestra el objeto con etiqueta string

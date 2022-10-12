@@ -3,3 +3,5 @@ def reemplazar(texto)
 end
 
 reemplazar("3.times { |i| puts i }")
+
+#* Realiza un bloque do end apartir de un string 

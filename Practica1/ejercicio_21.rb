@@ -48,4 +48,3 @@ puts "V1 #{multiplos_de_3_y_5(100)}"
 puts "V@ #{multiplos_de_3_y_5_v2([3, 5, 17, 28, 65], 100)}"
 
 
-#! CONSULTAR 

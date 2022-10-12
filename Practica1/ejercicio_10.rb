@@ -2,4 +2,4 @@
   puts "TTPS Ruby".send(meth)
 end
 
-#Lo que hace es ejecurar los methodos uno a uno al string
+#*Lo que hace es ejecurar los methodos uno a uno al string

@@ -22,3 +22,4 @@ end
 
 pp Persona.create(name: "Ignacio", lastname: "Cafiero", email: "ignaciocafiero12Qgmail.com", phone: "221-5245019", age: 20).name
 
+#* Agregar una clase generador para que no hacer new 

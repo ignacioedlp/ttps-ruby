@@ -7,3 +7,6 @@ fibonacci = Enumerator.new do |caller|
 end
 
 puts "- Los primeros 10 numeros de la secuencia --> #{fibonacci.first(22)}"
+
+
+#* Crear un enumerator 

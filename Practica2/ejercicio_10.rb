@@ -10,18 +10,16 @@ module Countable
   end
 end
 
-#TODO: Consultar
-
 
 class Greeter
-  include Countable # Incluyo el Mixin
+  include Countable #*Incluyo el Mixin
   def hi
     puts 'Hey!'
   end
   def bye
     puts 'See you!'
   end
-  # Indico que quiero llevar la cuenta de veces que se invoca el método #hi
+  #* Indico que quiero llevar la cuenta de veces que se invoca el método #hi
   count_invocations_of :hi 
 
 end
