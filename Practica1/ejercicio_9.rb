@@ -5,10 +5,11 @@ puts "esto es un string muy raro".gsub("a","4").gsub("e","3").gsub("i","1").gsub
 puts "esto es un string muy raro".reverse
 
 #Eliminá los espacios en blanco que contenga.
-puts "esto es un string muy raro ".gsub(/\s+/, "")
+puts "esto es un string muy raro ".delete " "
 
-#Convertí cada uno de sus caracteres por su correspondiente valor ASCII.
-#Averiguar
-#for letra in cadena.chars
-#valor_ascii = letra.ord
-#
+#Convertí cada uno de sus caracteres por su correspondiente valor ASCII. y agregar en un array dos opciones
+array = []
+"Hola como estas todo bien".split("").each do |char|
+  array.push(char.ord)
+end
+puts "esto es un string muy raro".bytes

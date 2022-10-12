@@ -39,7 +39,3 @@ p Perro.new('dd','dd').
 #* Establecer el valor de una variable de instancia de un objeto (sin utilizar un método generado con attr_writero similar) desde fuera de éste.
 
 p @raza
-
-
-
-#!CONSULTAR LOS ULTIMOS DOS PUNTOS

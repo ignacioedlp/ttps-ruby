@@ -1,11 +1,7 @@
 def longitud(arregloStrings)
-  arreglo = []
-  arregloStrings.map do |string, index|
-    arreglo << string.length.to_i
-  end
-  
-  puts arregloStrings
-  puts arreglo
+  arregloStrings.map { |x| x.length }
 end
 
-longitud(['TTPS', 'Opción', 'Ruby', 'Cursada 2019'])
+pp longitud(['TTPS', 'Opción', 'Ruby', 'Cursada 2019'])
+
+#Imprime un arreglo con la cantidad de cada palabra del arreglo
