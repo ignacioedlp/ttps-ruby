@@ -1,0 +1,17 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @office %>
+
+<% @office.employees.each do |employee| %>
+    <%= render employee %>
+    <p>
+      <%= employee.name %>
+      <%= link_to "Show this employee", employee %>
+    </p>
+  <% end %>
+
+<div>
+  <%= link_to "Edit this office", edit_office_path(@office) %> |
+  <%= link_to "Back to offices", offices_path %>
+
+</div>
